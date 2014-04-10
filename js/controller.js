@@ -16,10 +16,8 @@
 					'<% for (var index in this.data) { %>' +
 						'<% if ( currentLetter !== this.data[index].slice(0,1) ) { %>' +
 							'<li class="scroller-line-header"><% currentLetter = this.data[index].slice(0,1) %></li>' +
-							'<li><% this.data[index] %></li>' +
-						'<% } else { %>'+
-							'<li><% this.data[index] %></li>' +
 						'<% }; %>' +
+						'<li><% this.data[index] %></li>' +						
 					'<% }; %>' +
 				'</ul>' +
 		'</article>';
