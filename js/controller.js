@@ -4,7 +4,7 @@
 
 	moduleIScroller.controller( 'newCtrl', ['dataService'], function ( dataService ) {
 
-		var templateString, templateCompileFunction, instScroller, element;
+		var templateString, instScroller, element;
 
 		element = document.querySelector('#wrapper')
 
